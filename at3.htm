@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Boomer" />
+    
+    <link href="css/css.css" type="text/css" rel="stylesheet" />
+    <link href="dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".vid1").click(function(){
+            $("#vid1").toggle(600);
+            $("#vid2").hide(600);
+        })
+        $(".vid2").click(function(){
+            $("#vid1").hide(600);
+            $("#vid2").toggle(600);
+        })
+    })
+</script>
+    <style>
+    body{
+        text-align: center;
+        background-image: url('images/at3.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .back{
+        font-family: DFPOP1-W9;
+        color: black;
+        background-color: white;
+        float: right;
+        width: 0 auto;
+        padding: 7px 14px;
+        border-radius: 16px;
+        margin: 10px;
+        font-size: 24px;
+        border: 2px solid;
+    }
+    .back a{
+        text-decoration: none;
+        color: black;
+    }
+    .opvi{
+        font-family: DFPOP1-W9;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .opvi a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        background-color:rgb(250,241,102) ;
+        display: block;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    .opvi a:focus,.opvi a:hover{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        background-color:rgb(229,34,38) ;
+    }
+    </style>
+	<title>Ayo Tanggap Gempa</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="col-md-12 col-sm-12 col-xs-12"><label class="back"><a href="index.htm#at3">Back</a></label></div>
+    <div class="col-md-6 col-sm-6 col-xs-6" ><div class="opvi">
+        <span style="font-size: 24px ;">Siaga Sebelum Terjadi Bencana Gempa Bumi</span><br /><br />
+        <a href="#"class="vid1">lalalalala 1111</a>
+        <a href="#"class="vid2">lalalalala 2222</a>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6" >
+    <div id="vid1">
+        <video width="320" height="240" controls=""><source src="video/redslim08.mp4" type="video/mp4" /></video><br /><br />
+        <div style="background-color: white;padding: 20px; border-radius:10px;color: black;">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </span>
+        </div>
+    </div>
+    <div id="vid2" hidden="">
+        <video width="320" height="240" controls=""><source src="video/redslim08.mp4" type="video/mp4" /></video><br /><br />
+        <div style="background-color: white;padding: 20px; border-radius:10px;color: black;">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </span>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+</body>
+</html>

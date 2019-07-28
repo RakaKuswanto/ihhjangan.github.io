@@ -1,0 +1,76 @@
+body{    
+    
+}
+@font-face{
+    src: url(../fonts/DFPOP1-W9.ttf);
+    font-family: DFPOP1-W9;
+}
+.kaca{
+    background-size: cover;
+    height: 0 auto;
+    background-size: auto;
+    background-attachment: fixed;
+}
+.menu{
+    border-radius: 16px;
+    background-color: #bffffc;
+    margin: 10px;
+    width: 0 auto;
+    float: right;
+    padding: 7px;
+    font-family: DFPOP1-W9;
+}
+.menu a,.menu a:focus,.menu a:hover{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.awal{
+    text-align: center;
+    margin: 65px;
+}
+.awal img{
+    width: 35%;
+}
+.menu1{
+    margin-bottom: 80px;
+}
+.apa{
+    background-color: white;
+    font-family: DFPOP1-W9;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.menu2{
+    font-family: DFPOP1-W9;
+    text-align: center;
+}
+.antisipasi1{
+    color: black;
+    font-size: 24px;
+    padding: 70px 9px;
+    word-wrap: break-word;
+}
+.antisipasi1 span{
+    padding: 50px 0;
+}
+.antisipasi1 a,.antisipasi1 a:focus,.antisipasi1 a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 2% 6% 2% 6%;
+    background-color: rgb(240,163,81);
+    border-radius: 4px;
+}
+.menu3{
+    background-color: white;
+    border-radius: 60px;
+    padding: 40px;
+    margin: 0px 0px 50px 0px;
+}
+.menu3 span{
+    text-align: center;
+    
+}

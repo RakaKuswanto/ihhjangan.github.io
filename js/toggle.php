@@ -1,0 +1,25 @@
+<script type="text/javascript" src="js/jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".clear").click(function(){
+            $(".bottom-about").hide(600);
+            $(".bottom-components").hide(600);
+            $(".bottom-socmed").hide(600);
+        })
+        $(".about").click(function(){
+            $(".bottom-about").toggle(600);
+            $(".bottom-components").hide(600);
+            $(".bottom-socmed").hide(600);
+        })
+        $(".components").click(function(){
+            $(".bottom-about").hide(600);
+            $(".bottom-components").toggle(600);
+            $(".bottom-socmed").hide(600);
+        })
+        $(".socmed").click(function(){
+            $(".bottom-about").hide(600);
+            $(".bottom-components").hide(600);
+            $(".bottom-socmed").toggle(600);
+        })
+    })
+</script>
